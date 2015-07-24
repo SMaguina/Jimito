@@ -730,6 +730,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/showreel.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43326,
+		"inputAbbreviatedPath": "\/img\/showreel.png",
+		"outputAbbreviatedPath": "\/img\/showreel.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/slide_version.png": {
 		"fileType": 32768,
 		"ignore": 0,
