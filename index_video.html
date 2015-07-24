@@ -26,11 +26,11 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Mrs+Sheppards' rel='stylesheet' type='text/css'>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <!-- Html5shiv script is the defacto way to enable use of HTML5 sectioning elements in legacy Internet Explorer -->
+    <!--Respond.js is A fast & lightweight polyfill for min/max-width CSS3 Media Queries (for IE 6-8, and more)-->
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
     <![endif]-->
 
 
@@ -50,7 +50,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#page-top">
-                    Demian
+                    Jim Maguina
                 </a>
             </div>
 
@@ -90,9 +90,9 @@
         <div class="videoUiWrapper ">
             <div class="video-screen"></div>
             <video class="embed-responsive-item" loop muted autoplay width="100%" height="auto" id="demo1">
-                <source src="http://mazwai.com/system/posts/videos/000/000/102/preview_mp4_2/mike_lewinski--low_def_television.mp4?1409797586" type='video/mp4' />
-                <source src="http://ndesaintheme.com/themes/vcard/video/StockholmBigcitynight.webm" type='video/webm' />
-                <source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg' />Your browser does not support the video tag.
+                <source src="video/dissolve.mp4" type='video/mp4' />
+                <source src="video/dissolve.webm" type='video/webm' />
+                <source src="video/dissolve.ogv" type='video/ogg' />Your browser does not support the video tag.
             </video>
         </div>
 
@@ -867,13 +867,13 @@
     $(function() {
         $('#test1').gmap3({
             marker: {
-                address: "Haltern am See, Weseler Str. 151"
+                address: "Las Vegas, NV 89104"
             },
             map: {
                 options: {
                      draggable: true,
                     scrollwheel: false,
-                    zoom: 12
+                    zoom: 11
                 }
             }
         });
