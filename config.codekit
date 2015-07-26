@@ -697,6 +697,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/dissolvestatic.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 429241,
+		"inputAbbreviatedPath": "\/img\/dissolvestatic.jpg",
+		"outputAbbreviatedPath": "\/img\/dissolvestatic.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/icons.png": {
 		"fileType": 32768,
 		"ignore": 0,
