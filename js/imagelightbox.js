@@ -1,7 +1,8 @@
 
-/*
+/*  Image Lightbox Plug-in
 	By Osvaldas Valutis, www.osvaldas.info
 	Available for use under the MIT License
+ 	http://osvaldas.info/image-lightbox-responsive-touch-friendly
 */
 
 ;( function( $, window, document, undefined )

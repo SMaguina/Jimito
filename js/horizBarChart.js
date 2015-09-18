@@ -1,3 +1,4 @@
+//Portfolio charts for skills percentage
 (function ($) {
   "use strict"; //You will be happier
 

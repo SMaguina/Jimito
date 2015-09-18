@@ -1,3 +1,8 @@
+/* A simple plugin that "sticks" an element to the top of the browser window while scrolling past it, always keeping it in view.
+This plugin works on multi-page sites, but has additional features for one-pager layouts.
+
+ http://lirancohen.github.io/stickUp/
+ */
 jQuery(
 function($) {
 	

@@ -1,3 +1,5 @@
+<!-- Bootstrap Core JavaScript -->
+
     //Orange
     $("#click-orange").click(function() {
 

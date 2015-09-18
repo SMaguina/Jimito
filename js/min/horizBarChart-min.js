@@ -1,0 +1,1 @@
+!function($){"use strict";$.fn.horizBarChart=function(t){var e=$.extend({selector:".bar",speed:3e3},t);return this.each(function(){var t=0;$(this).find($(e.selector)).each(function(){var e=$(this).data("number");e>t&&(t=e)}),$(this).find($(e.selector)).each(function(){var n=$(this),r=n.data("number"),a=Math.round(r/t*98);$(this).animate({width:a+"%"},e.speed)})})}}(jQuery);
