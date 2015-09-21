@@ -620,6 +620,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/img\/jimportrait2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 102729,
+		"inputAbbreviatedPath": "\/img\/jimportrait2.jpg",
+		"outputAbbreviatedPath": "\/img\/jimportrait2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/img\/kingmedley.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -638,6 +649,17 @@
 		"initialSize": 43326,
 		"inputAbbreviatedPath": "\/img\/showreel.png",
 		"outputAbbreviatedPath": "\/img\/showreel.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/img\/toys4smiles.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 201540,
+		"inputAbbreviatedPath": "\/img\/toys4smiles.png",
+		"outputAbbreviatedPath": "\/img\/toys4smiles.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -1154,6 +1176,27 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/README.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/README.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/README.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
 		}
 	},
 "hooks": [
