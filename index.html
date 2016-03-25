@@ -380,29 +380,40 @@
                         </abbr>&nbsp;(702) 334-5289</address>
 
                     <form role="form" style="position:relative;z-index:9999;">
+                        <!-- Name Box -->
                         <div class="row">
                             <div class="col-md-6">
                                 <input type="text" class="form-control form-footer" placeholder="Your Name">
                             </div>
+                        <!-- Email Box -->
                             <div class="col-md-6">
                                 <input type="text" class="form-control form-footer" placeholder="Email">
                             </div>
                         </div>
                         <br>
+                        <!-- Message Box -->
                         <div class="row">
                             <div class="col-md-12">
-
                                 <textarea class="form-control form-footer" rows="5" placeholder="Message"></textarea>
                             </div>
-
                         </div>
-
                         <br>
-                        <button type="submit" class="btn bg-black text-center">Submit</button>
-
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="text" class="form-control" id="human" name="human" placeholder="2 + 3 = ?">
+                            </div>
+                        </div>
+                        <br>
+                        <!-- Submit Button -->
+                        <button id="submit" name="submit" type="submit" value="Send" class="btn bg-black text-center">Submit</button>
+                        <!-- Alert Message -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <! Will be used to display an alert to the user>
+                            </div>
+                        </div>
                     </form>
                     <br>
-
                 </div>
             </div>
         </div>
