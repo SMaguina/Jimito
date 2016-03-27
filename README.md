@@ -1,7 +1,7 @@
 # Codename - Jimito
 Jim's portfolio site <br>
-Framework: Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)<br>
-[Website Link](http://jmag.netlify.com)
+Framework: Bootstrap - [Freelancer Bootstrap Theme](http://startbootstrap.com)<br>
+[Website Link](http://www.jimmaguina.com)
 
 Worked on the following:<br>
 * Google Map API customization<br>
