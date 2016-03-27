@@ -379,39 +379,27 @@
                             <i class="icon-phone"></i>
                         </abbr>&nbsp;(702) 334-5289</address>
 
-                    <form role="form" style="position:relative;z-index:9999;">
+                    <form name="contact" action="thank-you" netlify role="form" style="position:relative;z-index:9999;">
                         <!-- Name Box -->
                         <div class="row">
                             <div class="col-md-6">
-                                <input type="text" class="form-control form-footer" placeholder="Your Name">
+                                <input type="text" name="name" class="form-control form-footer" id="name" placeholder="Your Name">
                             </div>
                         <!-- Email Box -->
                             <div class="col-md-6">
-                                <input type="text" class="form-control form-footer" placeholder="Email">
+                                <input type="text" name="email" class="form-control form-footer" id="email" placeholder="Your Email">
                             </div>
                         </div>
                         <br>
                         <!-- Message Box -->
                         <div class="row">
                             <div class="col-md-12">
-                                <textarea class="form-control form-footer" rows="5" placeholder="Message"></textarea>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <input type="text" class="form-control" id="human" name="human" placeholder="2 + 3 = ?">
+                                <textarea name="message" class="form-control form-footer" id="message" rows="5" placeholder="Message"></textarea>
                             </div>
                         </div>
                         <br>
                         <!-- Submit Button -->
-                        <button id="submit" name="submit" type="submit" value="Send" class="btn bg-black text-center">Submit</button>
-                        <!-- Alert Message -->
-                        <div class="row">
-                            <div class="col-md-12">
-                                <! Will be used to display an alert to the user>
-                            </div>
-                        </div>
+                        <button type="submit" name="submit" class="btn bg-black text-center" value="Send">Submit</button>
                     </form>
                     <br>
                 </div>
